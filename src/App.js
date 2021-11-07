@@ -9,7 +9,7 @@ import {
   useRoutes,
 } from "react-router-dom";
 
-function Home() {
+function Home() {//Home page with currency converter
   return (
     <Container>
       <Row>
@@ -24,7 +24,7 @@ function Home() {
   );
 }
 
-function Rates() {
+function Rates() {//Rates page with exchange rate table
   return (
     <Container fluid>
       <Row>
